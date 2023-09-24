@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <title>Me</title>
+</head>
+<body>
+    <!--Play music-->
+    <audio  id="BackGround-Music" src="Other/Music.mp3" autoplay loop  ></audio>
+    <video id="BackGround-Video" src="Other/Video.mp4" autoplay loop></video>
+    <div class="continer">
+        <div class="Block-Center-Contented">
+            <br>
+            <!--MainLogo-->
+            <img src="images/Main.jpg" id="LogoImage" alt="#Logo">
+            <br>
+            <br>
+            <hr>
+            <label id="UserName">T0m</label>
+            <br>
+            <q id="quote">Never stop improving yourself</q>
+            <br>
+            <br>
+            <!--Buttons-->
+            <a href="https://github.com/T0mmmm" target="_blank"><img src="images/github-white.svg" alt="#github" height="27" width="27">GitHub</a>
+            <br>
+            <a href="https://twitter.com/Tom23853" target="_blank"><img src="images/twitter-white.svg" alt="#twitter" height="27" width="27">Twitter</a>
+            <br>
+            <a href="" target="_blank"><img src="images/discord-white.svg" alt="#discord" height="27" width="27">Discord</a> <!--i don't have :(-->
+            <br>
+            <a href="" target="_blank"><img src="images/youtube-white.svg" alt="#youtube" height="27" width="27">Youtube</a> <!--i don't have :(-->
+            <br>
+        </div>
+    </div>
+    <!--javascript for control the volume-->
+    <script>
+        let volume = document.getElementById("BackGround-Music");
+        volume.volume = 0.02;
+    </script>
+</body>
+</html>
